@@ -8,9 +8,6 @@ import (
 func Test_assign_const_to_int_and_float(t *testing.T) {
 	i, f := assign_constant_to_int_and_float()
 
-	t.Log("value of i =", i)
-	t.Log("value of f =", f)
-
 	type_of_i := reflect.TypeOf(i).String()
 	if type_of_i != "int" {
 		t.Errorf("Expected type int for variable i, but got %s instead", type_of_i)

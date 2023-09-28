@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 
-func check_type_limits() (byte, int32, uint64){
+func check_type_limits() (byte, int32, uint64) {
 	// Assigning all the variables with highest value of their corresponding types.
 	var b byte = 255
 	var smallI int32 = 2147483647
