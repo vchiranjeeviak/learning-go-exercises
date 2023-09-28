@@ -12,10 +12,10 @@ func assign_constant_to_int_and_float() (int, float64) {
 	// Here 30 is of type int
 	var i int = value
 	// Here 30 is of type float64
-  var f float64 = value
+	var f float64 = value
 
-	fmt.Println("value of i =",i)
-	fmt.Println("value of f =",f)
-	
+	fmt.Println("value of i =", i)
+	fmt.Println("value of f =", f)
+
 	return i, f
 }

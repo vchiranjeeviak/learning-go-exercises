@@ -6,11 +6,11 @@ import (
 )
 
 func Test_assign_int_to_float(t *testing.T) {
-	i,f := assign_int_to_float()
+	i, f := assign_int_to_float()
 
-	t.Log("value of i =",i)
-	t.Log("value of f =",f)
-	
+	t.Log("value of i =", i)
+	t.Log("value of f =", f)
+
 	type_of_i := reflect.TypeOf(i).String()
 	if type_of_i != "int" {
 		t.Errorf("Expected type int for variable i, but got %s instead", type_of_i)
